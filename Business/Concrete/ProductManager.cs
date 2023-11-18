@@ -35,10 +35,7 @@ namespace Business.Concrete
             return new SuccessResult(Messages.ProductAdded); 
         }
 
-        public IResult add(Product product)
-        {
-            throw new NotImplementedException();
-        }
+       
 
         public IDataResult<List<Product>> GetAll()
         {
